@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f4f6f8;
+    }
+    h1 {
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      padding: 16px;
+      border-radius: 10px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✈️ Flight Finder</h1>
+
+  <div class="card">
+    <input type="text" placeholder="From (City or Airport)">
+    <input type="text" placeholder="To (City or Airport)">
+    <input type="date">
+    <button>Search Flights</button>
+  </div>
+
+</body>
+</html>
